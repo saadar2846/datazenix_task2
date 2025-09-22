@@ -1,0 +1,90 @@
+version: '3.1'
+stories:
+- story: Greeting story
+  steps:
+  - intent: Greeting
+  - action: utter_Greeting
+- story: GreetingResponse story
+  steps:
+  - intent: GreetingResponse
+  - action: utter_GreetingResponse
+- story: CourtesyGreeting story
+  steps:
+  - intent: CourtesyGreeting
+  - action: utter_CourtesyGreeting
+- story: CourtesyGreetingResponse story
+  steps:
+  - intent: CourtesyGreetingResponse
+  - action: utter_CourtesyGreetingResponse
+- story: CurrentHumanQuery story
+  steps:
+  - intent: CurrentHumanQuery
+  - action: utter_CurrentHumanQuery
+- story: NameQuery story
+  steps:
+  - intent: NameQuery
+  - action: utter_NameQuery
+- story: RealNameQuery story
+  steps:
+  - intent: RealNameQuery
+  - action: utter_RealNameQuery
+- story: TimeQuery story
+  steps:
+  - intent: TimeQuery
+  - action: utter_TimeQuery
+- story: Thanks story
+  steps:
+  - intent: Thanks
+  - action: utter_Thanks
+- story: NotTalking2U story
+  steps:
+  - intent: NotTalking2U
+  - action: utter_NotTalking2U
+- story: UnderstandQuery story
+  steps:
+  - intent: UnderstandQuery
+  - action: utter_UnderstandQuery
+- story: Shutup story
+  steps:
+  - intent: Shutup
+  - action: utter_Shutup
+- story: Swearing story
+  steps:
+  - intent: Swearing
+  - action: utter_Swearing
+- story: GoodBye story
+  steps:
+  - intent: GoodBye
+  - action: utter_GoodBye
+- story: CourtesyGoodBye story
+  steps:
+  - intent: CourtesyGoodBye
+  - action: utter_CourtesyGoodBye
+- story: WhoAmI story
+  steps:
+  - intent: WhoAmI
+  - action: utter_WhoAmI
+- story: Clever story
+  steps:
+  - intent: Clever
+  - action: utter_Clever
+- story: Gossip story
+  steps:
+  - intent: Gossip
+  - action: utter_Gossip
+- story: Jokes story
+  steps:
+  - intent: Jokes
+  - action: utter_Jokes
+- story: PodBayDoor story
+  steps:
+  - intent: PodBayDoor
+  - action: utter_PodBayDoor
+- story: PodBayDoorResponse story
+  steps:
+  - intent: PodBayDoorResponse
+  - action: utter_PodBayDoorResponse
+- story: SelfAware story
+  steps:
+  - intent: SelfAware
+  - action: utter_SelfAware
